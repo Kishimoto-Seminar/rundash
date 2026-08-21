@@ -1,0 +1,67 @@
+{
+  "id": "./index.html",
+  "lang": "ja",
+  "name": "RUN DASH! オープンキャンパスラン",
+  "short_name": "RUN DASH!",
+  "description": "オープンキャンパスでも家でも気軽に遊べる3レーン・スワイプランゲーム。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "background_color": "#07101f",
+  "theme_color": "#08172f",
+  "categories": ["games", "entertainment"],
+  "shortcuts": [
+    {
+      "name": "すぐ遊ぶ",
+      "short_name": "PLAY",
+      "description": "タイトルを飛ばしてすぐランを開始します。",
+      "url": "./index.html?start=1",
+      "icons": [
+        {
+          "src": "assets/ui/app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/ui/pwa-screenshot-title.png",
+      "sizes": "390x900",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "タイトル画面"
+    },
+    {
+      "src": "assets/ui/pwa-screenshot-play.png",
+      "sizes": "390x900",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "ラン中のゲーム画面"
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/ui/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/ui/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/ui/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
